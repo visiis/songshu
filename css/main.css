@@ -174,11 +174,11 @@ nav#mainNav li a.buy, .notBtn a, .moreBtn a, a.shortContact{
 	color:#ffffff;
 	background: #f67d42;
 	padding: 12px 20px 12px 30px;
-	border-radius:3px;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	-ms-border-radius: 3px;
-	-o-border-radius: 3px;
+	border-radius:5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
 	margin-top:12px;
 	box-shadow: -4px -4px 0px rgba(0, 0, 0, 0.1) inset;
 	-webkit-box-shadow: -4px -4px 0px rgba(0, 0, 0, 0.1) inset;
@@ -246,7 +246,7 @@ nav#mainNav li a.buy i{
 #teaser{
 	padding-bottom:65px;
 	color:#ffffff;
-	background:url(../images/sliderImages/full.jpg) no-repeat scroll 0 0px #fafafa;
+	background:url(../images/up/full.jpg) no-repeat scroll 0 0px #fafafa;
 	height:680px;
 	text-align:center;	
 }
@@ -312,9 +312,8 @@ nav#mainNav li a.buy i{
     font-size: 16px;
     height: 25px;
     line-height: 30px;
-    padding: 10px;
+    padding: 10px 30px;
     position: relative;
-    width: 25px;
 	margin-top:-40px;
 	opacity:0;
 	
@@ -394,7 +393,6 @@ nav#mainNav li a.buy i{
 .aboutIntro h1{
 	text-transform:uppercase;
 	color:#2d2d2d;
-	font-family: 'robotoregular';
 	font-size:24px;
 	position:relative;
 	line-height:34px;
@@ -404,19 +402,17 @@ nav#mainNav li a.buy i{
 
 .aboutIntro h1 span.orange{
 	color:#f67d42;
-	font-family: 'robotobold';
 
 }
 
 .aboutIntro h1 span.black{
 	color:#2d2d2d;
-	font-family: 'robotobold';
+	font-size:12px;
 
 }
 
 .aboutIntro p{
 	position:relative;
-	font-family: 'robotoregular';
 	font-size:13px;
 	margin-top:12px;
 	line-height:22px;
@@ -456,14 +452,12 @@ nav#mainNav li a.buy i{
 .divider h1{
 	font-size:20px;
 	color:#2d2d2d;
-	font-family: 'robotoregular';
 	text-transform:uppercase;
 	margin-top:20px;
 	
 }
 
 .divider h1 span{
-	font-family: 'robotobold';
 
 }
 
@@ -513,7 +507,7 @@ nav#mainNav li a.buy i{
 
 .desc h2 {
     color: #444444;
-    font-family: 'robotobold';
+
     font-size: 16px;
     margin-bottom: 5px;
 }
@@ -521,7 +515,7 @@ nav#mainNav li a.buy i{
 
 .desc p {
     color: #999999;
-    font-family: 'robotoregular';
+
     font-size: 13px;
     line-height: 20px;
 }
@@ -542,7 +536,7 @@ nav#mainNav li a.buy i{
 
 
 .description h1{
-	font-family: 'robotolight';
+
 	text-transform:uppercase;
 	font-size: 20px;
 	color:#2d2d2d;
@@ -574,7 +568,6 @@ nav#mainNav li a.buy i{
 .notBtn{
 	text-align:left;
 	margin-top:40px;
-	font-family: 'robotomedium';
 	text-transform:uppercase;
 	font-size: 14px;
 }
@@ -610,7 +603,6 @@ nav#mainNav li a.buy i{
 .galleryIntro h1{
 	text-transform:uppercase;
 	color:#2d2d2d;
-	font-family: 'robotoregular';
 	font-size:24px;
 	position:relative;
 	line-height:34px;
@@ -620,13 +612,11 @@ nav#mainNav li a.buy i{
 
 .galleryIntro h1 span.orange{
 	color:#f67d42;
-	font-family: 'robotobold';
 
 }
 
 .galleryIntro h1 span.black{
 	color:#2d2d2d;
-	font-family: 'robotobold';
 
 }
 
@@ -641,7 +631,7 @@ nav#mainNav li a.buy i{
 
 .slider ul p{
 	margin-top:30px;
-	font-family: 'robotoregular';
+
 	color:#999999;
 	font-size: 14px;
 	padding-right:70px;
@@ -649,7 +639,7 @@ nav#mainNav li a.buy i{
 }
 
 .slider span{
-	font-family: 'robotobold';
+
 	color:#666666;
 }
 
@@ -657,7 +647,7 @@ nav#mainNav li a.buy i{
 .moreBtn{
 	text-align:center;
 	margin-top:60px;
-	font-family: 'robotomedium';
+
 	text-transform:uppercase;
 	font-size: 14px;
 }
@@ -727,7 +717,7 @@ nav#mainNav li a.buy i{
 
 .subscribeHolder h1{
     color: #ffffff;
-    font-family: 'robotoregular';
+
     font-size: 20px;
     margin-top: 20px;
     text-transform: uppercase;
@@ -736,12 +726,12 @@ nav#mainNav li a.buy i{
 }
 
 .subscribeHolder h1 span {
-    font-family: 'robotobold';
+
 }
 
 .subscribeHolder p{
 	color: #ffffff;
-	font-family: 'robotoregular';
+
 	font-size: 14px;
 	line-height: 22px;
 	margin-top: 12px;
@@ -772,7 +762,7 @@ nav#mainNav li a.buy i{
     outline-width: 0;
     padding-left: 15px;
     width: 300px;
-	font-family: 'robotoregular';
+
 }
 
 #notForm input[type="email"]:focus {
@@ -812,7 +802,7 @@ nav#mainNav li a.buy i{
 label.error {
     color: #FFFFFF;
     display: block;
-    font-family: 'robotomedium';
+
     font-size: 11px;
     left: 136px;
     padding-bottom: 10px;
@@ -848,7 +838,7 @@ label.error {
 .loginIntro h1{
 	text-transform:uppercase;
 	color:#2d2d2d;
-	font-family: 'robotoregular';
+
 	font-size:24px;
 	position:relative;
 	line-height:34px;
@@ -858,7 +848,7 @@ label.error {
 
 .loginIntro h1 span.black{
 	color:#2d2d2d;
-	font-family: 'robotobold';
+
 
 }
 
@@ -872,7 +862,7 @@ label.error {
 	-ms-border-radius: 4px;
 	-o-border-radius: 4px;
     color: #444444;
-    font-family: 'robotobold';
+
     font-size: 13px;
     margin-bottom: 10px;
     outline-width: 0;
@@ -911,7 +901,7 @@ label.error {
     color: #FFFFFF;
     cursor: pointer;
     display: inline-block;
-    font-family: 'robotobold';
+
     font-size: 14px;
     height: 52px;
     margin-left: 5px;
@@ -958,7 +948,7 @@ label.error {
 .faqIntro h1{
 	text-transform:uppercase;
 	color:#2d2d2d;
-	font-family: 'robotoregular';
+
 	font-size:24px;
 	position:relative;
 	line-height:34px;
@@ -968,7 +958,7 @@ label.error {
 
 .faqIntro h1 span.black{
 	color:#2d2d2d;
-	font-family: 'robotobold';
+
 
 }
 
@@ -987,7 +977,7 @@ label.error {
 
 .shortContact h1 {
 	color:#2d2d2d;
-	font-family: 'robotobold';
+
 	text-transform:uppercase;
 	font-size:16px;
 	margin-bottom:10px;
@@ -997,7 +987,7 @@ label.error {
 .shortContact p{
 	margin-bottom:30px;
 	font-size:13px;
-	font-family: 'robotoregular';
+
 	line-height:22px;
 }
 
@@ -1005,7 +995,7 @@ label.error {
 a.shortContact{
 	text-transform:uppercase;
 	font-size:14px;
-	font-family: 'robotomedium';
+
 }
 
 a.shortContact i {
@@ -1036,7 +1026,7 @@ a.shortContact i {
 .pricingIntro h1{
 	text-transform:uppercase;
 	color:#2d2d2d;
-	font-family: 'robotoregular';
+
 	font-size:24px;
 	position:relative;
 	line-height:34px;
@@ -1046,7 +1036,7 @@ a.shortContact i {
 
 .pricingIntro h1 span.black{
 	color:#2d2d2d;
-	font-family: 'robotobold';
+
 
 }
 
@@ -1067,7 +1057,7 @@ a.shortContact i {
 
 .pricingIntro h1 {
     color: #2D2D2D;
-    font-family: 'robotoregular';
+
     font-size: 24px;
     line-height: 34px;
     margin-bottom: 20px;
@@ -1078,7 +1068,7 @@ a.shortContact i {
 
 .pricingIntro h1 span.black {
     color: #2D2D2D;
-    font-family: 'robotobold';
+
 }
 
 
@@ -1086,7 +1076,7 @@ a.shortContact i {
     margin-left: 35px;
     margin-right: 20px;
     margin-top: 80px;
-	font-family: 'robotoregular';
+
 }
 
 .pricingtbl ul {
@@ -1116,7 +1106,7 @@ a.shortContact i {
 
 
 .pricingtbl ul.border li span {
-   font-family: 'robotobold';
+
 	color:#2d2d2d;
 }
 
@@ -1227,7 +1217,7 @@ a.shortContact i {
 }
 span.price {
     color: #2D2D2D;
-    font-family: "robotobold";
+
     font-size: 48px;
 }
 span.price span.dollar {
@@ -1281,7 +1271,7 @@ span.price span.dollar {
 
 .clientContent h1{
 	text-transform:uppercase;
-	font-family: 'robotoregular';
+
 	font-size:24px;
 	position:relative;
 	line-height:34px;
@@ -1290,14 +1280,14 @@ span.price span.dollar {
 
 
 .clientContent h1 span.black{
-	font-family: 'robotobold';
+
 
 }
 
 
 .clientContent p {
     color: #ffffff;
-    font-family: 'robotoregular';
+
     font-size: 13px;
     line-height: 22px;
     position: relative;
@@ -1345,7 +1335,7 @@ ul.clientList a{
 .touchIntro h1{
 	text-transform:uppercase;
 	color:#2d2d2d;
-	font-family: 'robotoregular';
+
 	font-size:24px;
 	position:relative;
 	line-height:34px;
@@ -1354,7 +1344,7 @@ ul.clientList a{
 
 .touchIntro h1 span.black{
 	color:#2d2d2d;
-	font-family: 'robotobold';
+
 
 }
 
@@ -1410,7 +1400,7 @@ ul.clientList a{
     margin-bottom: 10px;
     outline-width: 0;
     padding-left: 10px;
-	font-family: 'robotobold';
+
 	 font-size: 13px;
 	border-radius:4px;
 	-webkit-border-radius: 4px;
@@ -1443,7 +1433,7 @@ ul.clientList a{
 	height:52px;
     text-transform: uppercase;
     width: 460px;
-	font-family: 'robotobold';
+
 	font-size:14px;
 	border-radius:3px;
 	-webkit-border-radius: 3px;
@@ -1487,7 +1477,7 @@ ul.clientList a{
 .shareIntro h1{
 	text-transform:uppercase;
 	color:#ffffff;
-	font-family: 'robotoregular';
+
 	font-size:24px;
 	position:relative;
 	line-height:34px;
@@ -1495,7 +1485,7 @@ ul.clientList a{
 }
 
 .shareIntro h1 span.black{
-	font-family: 'robotobold';
+
 
 }
 
@@ -1564,7 +1554,7 @@ ul.clientList a{
 
 
 #footer p{
-	font-family: 'robotoregular';
+
 	font-size:13px;
 	text-transform:uppercase;
 	float:left;
@@ -1573,14 +1563,14 @@ ul.clientList a{
 
 #footer p span{
 	color:#2d2d2d;
-	font-family: 'robotobold';
+
 }
 
 
 #footer ul{
 	float:right;
 	font-size:13px;
-	font-family: 'robotoregular';
+
 }
 
 #footer ul li{

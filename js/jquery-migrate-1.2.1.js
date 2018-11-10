@@ -18,7 +18,7 @@ jQuery.migrateWarnings = [];
 
 // Show a message on the console so devs know we're active
 if ( !jQuery.migrateMute && window.console && window.console.log ) {
-	window.console.log("JQMIGRATE: Logging is active");
+	window.console.log("JQMIGRATE: 插件已经激活");
 }
 
 // Set to false to disable traces that appear with warnings

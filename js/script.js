@@ -3,8 +3,8 @@
 jQuery(window).load(function() { 
 		jQuery("#loaderInner").fadeOut(); 
 		jQuery("#loader").delay(400).fadeOut("slow"); 
-		$('.teaserTitle ').stop().animate({marginTop :'330px', opacity:"1"}, 1000, 'easeOutQuint');
-		$('.down a ').stop().animate({marginTop :'30px', opacity:"1"}, 600, 'easeOutQuint');
+		$('.teaserTitle ').stop().animate({marginTop :'140px', opacity:"1"}, 1000, 'easeOutQuint');
+		$('.down a ').stop().animate({marginTop :'0px', opacity:"1"}, 600, 'easeOutQuint');
 });
 
 
