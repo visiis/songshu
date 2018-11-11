@@ -258,10 +258,14 @@ nav#mainNav li a.buy i{
 
 
 .teaserTitle {
-    margin-top: -200px;
-	opacity:0;
+    margin-top: 140px;
 }
-
+@media screen and (max-width: 479px) {
+	.teaserTitle {
+		margin-top: 220px;
+		padding-bottom: 20px;
+	}
+}
 .teaserTitle h1{
 	font-family: 'robotolight';
 	font-size:29px;
@@ -315,7 +319,6 @@ nav#mainNav li a.buy i{
     padding: 10px 30px;
     position: relative;
 	margin-top:-40px;
-	opacity:0;
 	
 }
 
@@ -1782,7 +1785,7 @@ ul.clientList a{
 	
 	
 	.holder960, .aboutIntro,.subscribe, .counterHolder, .faqIntro,.slider,.touchIntro, .clientContent, .shareIntro, .loginIntro,.galleryIntro,
-	.accordion,.shortContact,.shot,.description,.productDetails,.divider, .pricingIntro{width:230px;}
+	.accordion,.shortContact,.shot,.description,.productDetails,.divider, .pricingIntro{width:280px;}
 	
 	.arrowHolder {margin-left: -53px;top: -37px;width: 45%;}
 	
