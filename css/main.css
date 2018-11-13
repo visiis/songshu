@@ -968,7 +968,7 @@ label.error {
 
 .accordion{
 	width:600px;
-	margin-right:50px;
+	margin-left:50px;
 }
 
 .shortContact{
@@ -1831,7 +1831,7 @@ ul.clientList a{
 
 
 	.featureSingle.column, .accordion.column, .shortContact.column, #footer p,#footer ul,.shot.column,.description.column{float:none;}
-	.accordion{margin-right:0;margin-bottom:50px;}
+	.accordion{margin-left:0;margin-bottom:50px;}
 	
 	
 	#pricingContainer{margin-left:3px;margin-top:90px;}
@@ -1864,5 +1864,18 @@ ul.clientList a{
 
 
 
+ul.logol li{
+	display: block;
+	float: left;
+	width: 25%;
+	text-align: center;
+}
 
+@media only screen and (max-width:479px) {
+	ul.logol li{
 
+		width: 50%;
+
+	}
+
+}
