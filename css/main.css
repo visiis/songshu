@@ -166,13 +166,13 @@ nav#mainNav li a{
 }
 
 nav#mainNav li a:hover{
-	color: #f67d42;
+	color: #921a1b;
 }
 
 
 nav#mainNav li a.buy, .notBtn a, .moreBtn a, a.shortContact{
 	color:#ffffff;
-	background: #f67d42;
+	background: #921a1b;
 	padding: 12px 20px 12px 30px;
 	border-radius:5px;
 	-webkit-border-radius: 5px;
@@ -209,7 +209,7 @@ nav#mainNav li a.buy i{
 
 
 .active{
-	color: #f67d42 !important;
+	color: #921a1b !important;
 }
 
 
@@ -1772,7 +1772,7 @@ ul.clientList a{
 	html{-webkit-text-size-adjust: none;-moz-text-size-adjust:none;-ms-text-size-adjust:none;}
 	.logo, nav#mainNav{float:none;}
 	#loaderInner {margin: -50px 0 0 -30px;}
-	.logo{margin-left:0px;margin-bottom:30px;}
+	.logo{margin-left:0;margin-bottom:20px;}
 	.logo h1{margin-left:10px;}
 	nav#mainNav{margin-right:0;}
 	nav#mainNav ul{display:none;margin-bottom:5px;margin-left:5px;}
